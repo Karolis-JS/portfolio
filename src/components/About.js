@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import img from '../images/mongodb.png'
+import { AiFillHtml5 } from 'react-icons/fa';
 
 function About() {
     return (
@@ -15,6 +16,7 @@ function About() {
                 <div className="about-icon-div">
                     <p>The technologies which I use</p>
                     <div className="about-icon">
+                        <AiFillHtml5/>
                         <i className="fab fa-html5"><br/><span>HTML</span></i>
                         <i className="fab fa-css3-alt"><br/><span>CSS</span></i>
                         <i className="fab fa-js-square"></i>
