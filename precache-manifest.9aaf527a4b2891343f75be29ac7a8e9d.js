@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/rpg_game.6a04082f.png"
   },
   {
-    "revision": "9f65e7426aeda214ea8a4afe583fd209",
+    "revision": "ab47c67c1bf431f05f751a13087b42cc",
     "url": "/portfolio/index.html"
   }
 ];
