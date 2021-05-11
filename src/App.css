@@ -177,7 +177,12 @@ body{
   margin: 10px;
   transition: .3s;
 }
-.about-icon i:hover{
+.icon{
+  font-size: 40px;
+  margin: 10px;
+  transition: .3s;
+}
+.icon:hover{
   transform: scale(1.6);
 }
 
@@ -195,17 +200,21 @@ body{
   transform: scale(1.6);
 }
 .contact-location{
+  font-family: 'Raleway', sans-serif;
   padding: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   color: white;
 }
-.contact-location i{
+
+.location{
   font-size: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  color: white;
 }
 .contact-location p{
-  margin-top: 5px;
+  margin-top: 0px;
   font-size: 20px;
 }
 .contact-icon{
@@ -214,13 +223,8 @@ body{
   color: white;
   font-size: 50px;
 }
-.contact-icon i{
+.contact-icon a{
   margin: 0 20px;
-  cursor: pointer;
-  transition: 1s;
-}
-.contact-icon i:hover{
-  transform: rotate(360deg);
 }
 .contact-icon a{
   color: white;
@@ -229,21 +233,34 @@ body{
   padding: 0;
   margin: 0;
 }
+.fb{
+  cursor: pointer;
+  transition: 1s;
+}
 .fb:hover{
   color: #0E8EF2;
+  transform: rotate(360deg);
+}
+.linkedin{
+  cursor: pointer;
+  transition: 1s;
 }
 .linkedin:hover{
   color: #0077B5;
+  transform: rotate(360deg);
 }
-.instagram .fab:hover {
-  background: #d6249f;
+.instagram{
+  cursor: pointer;
+  transition: 1s;
+}
+.instagram:hover {
+  transform: rotate(360deg);
+  color: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/*.ig:hover{*/
-/*  color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
-/*}*/
+
 .circle1{
   position: absolute;
   left: 75%;

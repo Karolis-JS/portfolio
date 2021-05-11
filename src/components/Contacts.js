@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+import { GoLocation } from 'react-icons/go';
+import { TiMail } from 'react-icons/ti';
+import { SiFacebook } from 'react-icons/si';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { GrInstagram } from 'react-icons/gr';
 
 function Contacts() {
 
@@ -9,24 +14,26 @@ function Contacts() {
             <Navbar />
             <div>
                 <div className="contact-location">
-                    <i className="fas fa-street-view"> <p>Vilnius, Lithuania</p></i>
-                    <i className="fas fa-envelope"> <p>karolis.soblinskas@gmail.com</p></i>
+                    <GoLocation className='location'/>
+                    <p>Vilnius, Lithuania</p>
+                    <TiMail className='location'/>
+                    <p>karolis.soblinskas@gmail.com</p>
                 </div>
                 <div className="contact-icon">
                     <p>
                         <a href="https://www.facebook.com/karolis.soblinskas">
-                            <i className="fab fa-facebook fb"></i>
+                            <SiFacebook className="fb"/>
                         </a>
                     </p>
                     
                     <p>
                         <a href="https://www.linkedin.com/in/karolis-%C5%A1oblinskas-a98b53113/">
-                            <i className="fab fa-linkedin linkedin"></i>
+                            <AiFillLinkedin className="linkedin"/>
                         </a>
                     </p>
-                    <p className="instagram">
+                    <p>
                         <a href="https://www.instagram.com/karolis_soblinskas/">
-                            <i className="fab fa-instagram"></i>
+                            <GrInstagram className="instagram"/>
                         </a>
                     </p>
 
