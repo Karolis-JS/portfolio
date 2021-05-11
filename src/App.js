@@ -1,23 +1,67 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
+import {
+    TransitionGroup,
+    CSSTransition
+} from "react-transition-group";
+
+import Home from "./components/Home";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contacts from "./components/Contacts";
+import Circle1 from "./components/Circle1";
+import Circle2 from "./components/Circle2";
+import Circle3 from "./components/Circle3";
+import Circle4 from "./components/Circle4";
+import Circle5 from "./components/Circle5";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Router>
+            <Circle1/>
+            <Circle2/>
+            <Circle3/>
+            <Circle4/>
+            <Circle5/>
+            <Switch>
+                <Route render={({location}) => (
+                    <TransitionGroup>
+                        <CSSTransition
+                            key={location.key}
+                            timeout={500}
+                            classNames="fade"
+                        >
+                            <Switch location={location}>
+
+                                <Route exact path="/">
+                                    <Home />
+                                </Route>
+
+                                <Route path="/about">
+                                    <About />
+                                </Route>
+
+                                <Route path="/portfolio">
+                                    <Portfolio />
+                                </Route>
+
+                                <Route path="/contacts">
+                                    <Contacts />
+                                </Route>
+
+                            </Switch>
+                        </CSSTransition>
+                    </TransitionGroup>
+                )} />
+            </Switch>
+        </Router>
     </div>
   );
 }
