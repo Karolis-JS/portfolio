@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import img from '../images/mongodb.png'
+import MyPDF from '../files/CV Karolis Soblinskas.pdf';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
@@ -20,6 +21,7 @@ function About() {
                 <div className="about-text">
                     <p> <span className="mobile-about-text">I'm junior Full-stack web developer.</span> With javascript I build websites and create amazing things. As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. Step by step I grow, that's why I’m excited! And I do not intend to stop, if You think I can be of use to you, <Link className="about-link" to="/my-page/contacts">let's get in touch!</Link></p>
                     <p>Let’s make something special.</p>
+                    <a className="cv" href={MyPDF} download="CV Karolis Soblinskas.pdf">My CV</a>
                 </div>
                 <div className="about-icon-div">
                     <p>The technologies which I use</p>

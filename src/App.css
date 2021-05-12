@@ -181,6 +181,26 @@
   margin: 10px;
   transition: .3s;
 }
+.cv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', cursive;
+  margin-top: 25px;
+  width: 100px;
+  padding: 5px;
+  border: 3px solid #4a252c;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 5px 10px 10px 0 rgb(95, 42, 60);
+}
+.cv:hover{
+  background-color: #4a252c;
+  border: none;
+  color: #fff;
+  padding: 8px;
+}
 .icon{
   font-size: 40px;
   margin: 10px;
