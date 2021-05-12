@@ -39,6 +39,9 @@ function App() {
                             classNames="fade"
                         >
                             <Switch location={location}>
+                                <Route exact path="/">
+                                    <Home />
+                                </Route>
 
                                 <Route exact path="/my-page">
                                     <Home />

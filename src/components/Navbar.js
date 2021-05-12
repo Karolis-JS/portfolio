@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useParams, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 
 function Navbar() {
@@ -8,19 +8,19 @@ function Navbar() {
     return (
         <div className="navbar">
             <div>
-                <Link className={pathname === "/" ? "active" : null} to="/">Home</Link>
+                <Link className={pathname === "/my-page" ? "active" : null} to="/my-page">Home</Link>
             </div>
 
             <div>
-                <Link className={pathname === "/about"? "active" : null} to="/about">About Me</Link>
+                <Link className={pathname === "/my-page/about"? "active" : null} to="/my-page/about">About Me</Link>
             </div>
 
             <div>
-                <Link className={pathname === "/portfolio"? "active" : null} to="/portfolio">Portfolio</Link>
+                <Link className={pathname === "/my-page/portfolio"? "active" : null} to="/my-page/portfolio">Portfolio</Link>
             </div>
 
             <div>
-                <Link className={pathname === "/contacts"? "active" : null} to="/contacts">Let's get in touch</Link>
+                <Link className={pathname === "/my-page/contacts"? "active" : null} to="/my-page/contacts">Let's get in touch</Link>
             </div>
 
 
