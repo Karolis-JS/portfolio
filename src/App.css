@@ -47,7 +47,8 @@ body{
 }
 .active{
   padding: 3.3vh 12px 1vh 12px;
-  background-color: #4a252c;
+  background: rgb(47,68,84);
+  background: linear-gradient(180deg, rgba(47,68,84,0.47942927170868344) 0%, rgba(74,37,44,1) 100%);
 }
 .homeImg{
   width: 65%;
@@ -144,6 +145,7 @@ body{
   opacity: 1;
 }
 .about-text{
+  font-family: 'Caveat', cursive;
   margin-top: 30px;
   text-align: justify;
   color: white;
@@ -488,7 +490,6 @@ body{
     width: 88%;
     height: 45vh;
     padding: 0px 20px;
-    font-family: 'Caveat', cursive;
   }
 
   .about-icon-div{
