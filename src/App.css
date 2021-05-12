@@ -436,7 +436,7 @@ body{
   .page{
     margin-top: 0;
     width: 90%;
-    height: 90vh;
+    height: 92vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -484,7 +484,7 @@ body{
     opacity: 0.5;
   }
   .about-text{
-    width: 100%;
+    width: 90%;
     height: 45vh;
     padding: 0px 20px;
   }
@@ -533,7 +533,7 @@ body{
   }
   .here-me{
     position: absolute;
-    top: 100%;
+    top: 80%;
   }
 
 }
