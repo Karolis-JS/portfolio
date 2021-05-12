@@ -40,7 +40,7 @@ function App() {
                         >
                             <Switch location={location}>
 
-                                <Route exact path="/portfolio">
+                                <Route path="/portfolio">
                                     <Home />
                                 </Route>
 
