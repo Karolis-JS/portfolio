@@ -484,7 +484,7 @@ body{
     opacity: 0.5;
   }
   .about-text{
-    width: 80%;
+    width: 90%;
     height: 45vh;
     padding: 0px 20px;
   }
@@ -533,7 +533,7 @@ body{
   }
   .here-me{
     position: absolute;
-    top: 50%;
+    top: 100%;
   }
 
 }
