@@ -40,19 +40,19 @@ function App() {
                         >
                             <Switch location={location}>
 
-                                <Route exact path="/">
+                                <Route exact path="/my-page">
                                     <Home />
                                 </Route>
 
-                                <Route path="/about">
+                                <Route path="/my-page/about">
                                     <About />
                                 </Route>
 
-                                <Route path="/portfolio">
+                                <Route path="/my-page/portfolio">
                                     <Portfolio />
                                 </Route>
 
-                                <Route path="/contacts">
+                                <Route path="/my-page/contacts">
                                     <Contacts />
                                 </Route>
 
