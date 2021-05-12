@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');body{
   background-color: #2f4454;
 }
 .App {
@@ -146,7 +145,7 @@ body{
   opacity: 1;
 }
 .about-text{
-  font-family: 'Special Elite', cursive;
+  font-family: 'Nixie One', cursive;
   margin-top: 30px;
   text-align: justify;
   color: white;
