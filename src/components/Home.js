@@ -8,7 +8,7 @@ function Home() {
 
         <div className="page">
             <Navbar />
-        <div className="w-100 d-flex">
+        <div className="w-100 d-flex ">
             <HomeText />
             <HomeImg />
         </div>

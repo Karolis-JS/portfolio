@@ -32,7 +32,7 @@ function HomeText() {
                     springConfig={ presets.wobbly }
                 />
             </p>
-            <Link className="here-me" to="/about">Here Me</Link>
+            <Link className="here-me" to="/my-page/about">Here Me</Link>
         </div>
     );
 }

@@ -4,6 +4,7 @@ body{
 }
 .App {
   text-align: center;
+
 }
 .d-flex{
   display: flex;
@@ -389,14 +390,6 @@ body{
   }
 }
 
-/*#376E6F*/
-/*.anim{*/
-/*  animation-name: fade;*/
-/*  animation-duration: 0.7s;*/
-/*}*/
-
-
-
 .fade-appear,
 .fade-enter {
   opacity: 0;
@@ -407,7 +400,6 @@ body{
   opacity: 1;
   transition: opacity 300ms linear 150ms;
 }
-
 .fade-exit {
   opacity: 1;
 }
@@ -419,19 +411,93 @@ body{
 ::-webkit-scrollbar {
   width: 12px;
 }
-
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(156, 212, 241, 0.3);
   border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(62, 182, 241, 0.5);
 }
 
 @media only screen and (max-width: 400px) {
-  body {
-    background-color: lightblue;
+
+  .page{
+    width: 95%;
+    min-height: 100vh;
+    height: auto;
+    top: 56%;
+    left: 57%;
+    transform: translate(-50%, -50%);
   }
+  .home-text{
+    position: absolute;
+    top: 15%;
+    left: -7%;
+    width: 60%;
+    z-index: 1;
+  }
+  .mobile{
+    flex-direction: column;
+  }
+  .homeImg{
+    position: absolute;
+    left: 33%;
+    bottom: 0;
+    width: 65%;
+    height: 55vh;
+    background: none;
+  }
+  .navbar a{
+    padding: 0 18px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+  }
+  .circle1 {
+    left: 75%;
+    top: 25%;
+  }
+  .circle4 {
+    position: absolute;
+    left: 30%;
+    top:90%;
+    opacity: 0.5;
+  }
+  .circle2 {
+    position: absolute;
+    left: 4%;
+    top: 65%;
+    opacity: 0.5;
+  }
+  .about-text{
+    width: 80%;
+    height: 45vh;
+  }
+  .about-icon-div{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-about-text{
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 2px 5px 5px lightblue;
+  }
+  .portfolio-main{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 550px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio-card{
+    margin-top: 5px;
+    width: 90%;
+  }
+
 }

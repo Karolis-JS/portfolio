@@ -16,9 +16,9 @@ function About() {
     return (
         <div className="page">
             <Navbar/>
-            <div className="d-flex">
+            <div className="d-flex mobile">
                 <div className="about-text">
-                    <p>I'm junior Full-stack web developer. With javascript I build websites and create amazing things. As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. Step by step I grow, that's why I’m excited! And I do not intend to stop, if You think I can be of use to you, <Link className="about-link" to="/my-page/contacts">let's get in touch!</Link></p>
+                    <p> <span className="mobile-about-text">I'm junior Full-stack web developer.</span> With javascript I build websites and create amazing things. As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. Step by step I grow, that's why I’m excited! And I do not intend to stop, if You think I can be of use to you, <Link className="about-link" to="/my-page/contacts">let's get in touch!</Link></p>
                     <p>Let’s make something special.</p>
                 </div>
                 <div className="about-icon-div">
