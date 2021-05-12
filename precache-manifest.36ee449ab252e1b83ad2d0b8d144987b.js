@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2d594bf4fd56d1282365",
-    "url": "/portfolio/static/css/main.598750c7.chunk.css"
+    "revision": "2a54956edda33266c741",
+    "url": "/portfolio/static/css/main.24df0efe.chunk.css"
   },
   {
-    "revision": "2d594bf4fd56d1282365",
-    "url": "/portfolio/static/js/main.e822618c.chunk.js"
+    "revision": "2a54956edda33266c741",
+    "url": "/portfolio/static/js/main.912a0dab.chunk.js"
   },
   {
     "revision": "65db28809bf8d983f6e3",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/3.246faef4.chunk.js"
   },
   {
-    "revision": "15260e77d60a5e3e18ff72a44d606649",
-    "url": "/portfolio/static/media/portret.15260e77.png"
+    "revision": "3371fb41d08e6fdb63845ecc5351fd47",
+    "url": "/portfolio/static/media/portret.3371fb41.png"
   },
   {
     "revision": "ed0f4221c7ac1913b5d80b8c1d947c0b",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/rpg_game.6a04082f.png"
   },
   {
-    "revision": "655352704f91b9f517f87217463bde89",
+    "revision": "e2a7f4157cc9c2e7defa41c3ce5ff8c7",
     "url": "/portfolio/index.html"
   }
 ];
