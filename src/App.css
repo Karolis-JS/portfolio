@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 body{
   background-color: #2f4454;
 }
@@ -145,7 +146,7 @@ body{
   opacity: 1;
 }
 .about-text{
-  font-family: 'Caveat', cursive;
+  font-family: 'Special Elite', cursive;
   margin-top: 30px;
   text-align: justify;
   color: white;
