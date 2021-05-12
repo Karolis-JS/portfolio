@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "2a54956edda33266c741",
-    "url": "/portfolio/static/css/main.24df0efe.chunk.css"
+    "revision": "1bb7c18cabeab586f717",
+    "url": "/portfolio/static/css/main.e25f3a04.chunk.css"
   },
   {
-    "revision": "2a54956edda33266c741",
+    "revision": "1bb7c18cabeab586f717",
     "url": "/portfolio/static/js/main.912a0dab.chunk.js"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/rpg_game.6a04082f.png"
   },
   {
-    "revision": "e2a7f4157cc9c2e7defa41c3ce5ff8c7",
+    "revision": "a9cd64829abe4d3118099cd36c12e55f",
     "url": "/portfolio/index.html"
   }
 ];
