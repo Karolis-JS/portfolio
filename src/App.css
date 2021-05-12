@@ -284,8 +284,30 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.drop{
+  font-size: 10px;
+  color: #e5c7d2;
+  animation-name: drop;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+@keyframes drop {
+  0%{
+    opacity: 0;
+  }
+ 50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
 
 .circle1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 75%;
   top: 5%;
@@ -312,6 +334,9 @@
 
 }
 .circle2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 17%;
   top: 77%;
@@ -337,6 +362,9 @@
   }
 }
 .circle3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 15%;
   top: 12%;
@@ -362,6 +390,9 @@
   }
 }
 .circle4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left:65%;
   top: 78%;
@@ -387,6 +418,9 @@
   }
 }
 .circle5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left:79%;
   top: 60%;
@@ -557,6 +591,9 @@
   .here-me{
     position: absolute;
     top: 60%;
+  }
+  .drop{
+    display: none;
   }
 
 }
