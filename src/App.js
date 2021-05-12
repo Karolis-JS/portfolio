@@ -30,9 +30,6 @@ function App() {
             <Circle3/>
             <Circle4/>
             <Circle5/>
-            <Route exact path="/">
-                <Home />
-            </Route>
             <Switch>
                 <Route render={({location}) => (
                     <TransitionGroup>
@@ -42,6 +39,11 @@ function App() {
                             classNames="fade"
                         >
                             <Switch location={location}>
+
+                                <Route exact path="/portfolio">
+                                    <Home />
+                                </Route>
+
                                 <Route exact path="/my-page">
                                     <Home />
                                 </Route>
