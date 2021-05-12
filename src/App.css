@@ -464,7 +464,7 @@ body{
   }
   .navbar a{
     padding: 0 15px;
-    height: 58px;
+    height: 40px;
     display: flex;
     align-items: center;
     font-size: 12px;
