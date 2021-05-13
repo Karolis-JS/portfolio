@@ -1,5 +1,5 @@
 {
-  "main.css": "/portfolio/static/css/main.6e64c1b3.chunk.css",
+  "main.css": "/portfolio/static/css/main.cb57b590.chunk.css",
   "main.js": "/portfolio/static/js/main.c741f001.chunk.js",
   "main.js.map": "/portfolio/static/js/main.c741f001.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.92d0a13d.js",
@@ -9,9 +9,9 @@
   "static/js/3.e2279214.chunk.js": "/portfolio/static/js/3.e2279214.chunk.js",
   "static/js/3.e2279214.chunk.js.map": "/portfolio/static/js/3.e2279214.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.1b50386fb9aaec7969e1cf85a3d99857.js": "/portfolio/precache-manifest.1b50386fb9aaec7969e1cf85a3d99857.js",
+  "precache-manifest.998e1b325a31f8d78d18d29e90672ad1.js": "/portfolio/precache-manifest.998e1b325a31f8d78d18d29e90672ad1.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.6e64c1b3.chunk.css.map": "/portfolio/static/css/main.6e64c1b3.chunk.css.map",
+  "static/css/main.cb57b590.chunk.css.map": "/portfolio/static/css/main.cb57b590.chunk.css.map",
   "static/media/CV Karolis Soblinskas.pdf": "/portfolio/static/media/CV Karolis Soblinskas.e5334323.pdf",
   "static/media/mongodb.png": "/portfolio/static/media/mongodb.ed0f4221.png",
   "static/media/portret.png": "/portfolio/static/media/portret.3371fb41.png",
