@@ -2,6 +2,7 @@ import React, {  useState, useEffect }from 'react';
 import { Link } from "react-router-dom";
 import TextTransition, { presets } from "react-text-transition";
 
+
 function HomeText() {
 
     const TEXTS = [
@@ -25,7 +26,7 @@ function HomeText() {
     return (
         <div className="home-text">
             <p>Hi! Nice to meet,</p>
-            <h1>I'm Karolis,</h1>
+            <h1 className="title-hover">I'm Karolis,</h1>
             <p>
                 <TextTransition
                     text={ TEXTS[index % TEXTS.length] }
