@@ -6,11 +6,11 @@ import TextTransition, { presets } from "react-text-transition";
 function HomeText() {
 
     const TEXTS = [
-        "Junior full-stack web developer",
-        "Junior javascript developer",
-        "Junior react developer",
-        "Junior front-end developer",
-        "Junior back-end developer"
+        "full-stack web developer",
+        "javascript developer",
+        "react developer",
+        "front-end developer",
+        "back-end developer"
     ];
 
     const [index, setIndex] = useState(0);
@@ -27,12 +27,13 @@ function HomeText() {
         <div className="home-text">
             <p>Hi! Nice to meet,</p>
             <h1 className="title-hover">I'm Karolis,</h1>
-            <p>
+            <div className="d-flex mt-20 text-left mobile-size">
+                <p className="mr-10">Junior</p>
                 <TextTransition
                     text={ TEXTS[index % TEXTS.length] }
                     springConfig={ presets.wobbly }
                 />
-            </p>
+            </div>
             <Link className="here-me" to="/my-page/about">Here Me</Link>
         </div>
     );
