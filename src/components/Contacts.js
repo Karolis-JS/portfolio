@@ -11,7 +11,7 @@ function Contacts() {
     return (
         <div className="page">
             <Navbar />
-            <div>
+            <div >
 
                 <div className="contact-location">
                     <div>

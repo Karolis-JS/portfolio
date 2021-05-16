@@ -4,6 +4,7 @@
     <list default="true" id="50b8980f-51e8-42fc-8c39-2b3e73f3d4d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nodeJS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -54,7 +55,8 @@
       <workItem from="1620884458873" duration="22314000" />
       <workItem from="1620970569784" duration="24403000" />
       <workItem from="1621063347281" duration="12612000" />
-      <workItem from="1621154234122" duration="13544000" />
+      <workItem from="1621154234122" duration="14067000" />
+      <workItem from="1621190229942" duration="2915000" />
     </task>
     <servers />
   </component>
