@@ -43,7 +43,7 @@ function Portfolio() {
                                 <h2><span>RPG</span> game application</h2>
                                 <p>nodeJS, socket.io</p>
 
-                                <a style={{outline: "none"}} href="#">
+                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/rpg-game">
                                     <p className="see-code">See code</p>
                                 </a>
                             </figcaption>
@@ -60,7 +60,7 @@ function Portfolio() {
                                 <h2><span>Blog</span> application</h2>
                                 <p>Only Html and Css</p>
 
-                                <a style={{outline: "none"}} href="#">
+                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/blog-app">
                                     <p className="see-code">See code</p>
                                 </a>
                             </figcaption>
@@ -86,29 +86,42 @@ function Portfolio() {
             <div className="mobile-size">
                 <div className="portfolio-main">
                     <div className="portfolio-card">
-                        <p>Recipes application (react, nodeJS, mongoDb)</p>
+                        <div className="app-description">
+                            <h2><span>Recipes</span> application</h2>
+                            <p>react, nodeJS, mongoDb</p>
+                        </div>
                         <img src={img} alt=""/>
                         <a href="https://github.com/Karolis-JS/recipes-page-react-nodejs-mongodb">
                             <div className="goToCode">Go to code</div>
                         </a>
                     </div>
                     <div className="portfolio-card">
-                        <p>Rpg game application (nodeJS, socket.io)</p>
+                        <div className="app-description">
+                            <h2><span>RPG</span> game application</h2>
+                            <p>nodeJS, socket.io</p>
+                        </div>
                         <img src={img2} alt=""/>
-                        <a href="#">
+                        <a href="https://github.com/Karolis-JS/rpg-game">
                             <div className="goToCode">Go to code</div>
                         </a>
                     </div>
                     <div className="portfolio-card">
-                        <p>Blog application (only Html and Css)</p>
+                        <div className="app-description">
+                            <h2><span>Blog</span> application</h2>
+                            <p>Only Html and Css</p>
+                        </div>
+
                         <img src={nuruimob} alt=""/>
-                        <a href="#">
+                        <a href="https://github.com/Karolis-JS/blog-app">
                             <div className="goToCode">Go to code</div>
                         </a>
                     </div>
 
                     <div className="portfolio-card">
-                        <p>Simple <span>booking</span> application with registration (JavaScript, nodeJS, express-session)</p>
+                        <div className="app-description">
+                            <h2><span>booking</span> app with registration</h2>
+                            <p>JavaScript, nodeJS, express-session</p>
+                        </div>
                         <img src={img4} alt=""/>
                         <a href="#">
                             <div className="goToCode">Go to code</div>

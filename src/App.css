@@ -442,50 +442,72 @@ figure.snip0015:hover figcaption p {
     display: none;
 }
 .portfolio-main{
-  margin-top: 35px;
-  width: 97%;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  color: white;
+    color: white;
+    margin: 0;
+    width: 100%;
+    height: 75vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.portfolio-card{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 210px;
+}
+.app-description{
+    width: 100%;
+    box-shadow: inset 0px 0px 300px 200px rgba(47,68,84,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -100px;
+    z-index: 1;
+}
+.app-description h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.app-description h2 span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.app-description p {
+    font-weight: 200;
+    margin: 0;
+    z-index: 1;
 }
 
-.portfolio-card{
-  width: 29%;
-  margin: 0 7px;
-  cursor: pointer;
-  transition: .4s;
-}
-.portfolio-card p{
-  font-family: 'Raleway', sans-serif;
-  margin: 5px;
-}
-.portfolio-card:hover{
-  z-index: 1;
-  margin-top: 23px;
-  padding: 5px;
-  transform: scale(1.7);
-  box-shadow: 0px 1px 5px 0px rgba(255,255,255,1);
-  background: linear-gradient(0deg, rgba(47,68,84,1) 0%, rgba(55,110,111,0.7091211484593838) 100%);
-}
 .portfolio-card img{
+  position: relative;
+  top: -40px;
   width: 100%;
 }
 .portfolio-card a{
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 .goToCode{
   padding: 10px 20px;
   font-size: 10px;
   background-color: #1C3334;
   cursor: pointer;
-  opacity: .4;
-  transition: .3s;
+  position: relative;
+  top: -35px;
 }
 .goToCode:hover{
   box-shadow: inset 0px 0px 5px 0px rgba(255,255,255,1);
-  opacity: 1;
+
 }
 .about-text{
   font-family: 'Nixie One', cursive;
@@ -940,28 +962,7 @@ figure.snip0015:hover figcaption p {
     .l-size{
         display: none;
     }
-  .portfolio-main{
-    margin: 0;
-    width: 100%;
-    height: 75vh;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .portfolio-card{
-    margin-top: 0px;
-    margin-bottom: 10px;
-    width: 90%;
-  }
-  .portfolio-card:hover{
-    transform: scale(1.0);
-    box-shadow: none;
-    background: none;
-  }
-  .goToCode{
-    opacity: 1;
-  }
+
   .icon{
     font-size: 35px;
   }
