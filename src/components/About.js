@@ -11,6 +11,12 @@ import { FaNode } from 'react-icons/fa';
 import { DiNpm } from 'react-icons/di';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import { DiSass } from 'react-icons/di';
+import { DiPhotoshop } from 'react-icons/di';
+import { DiIllustrator } from 'react-icons/di';
+import { SiAdobelightroomcc } from 'react-icons/si';
+import { Icon, InlineIcon } from '@iconify/react';
+import coreldrawIcon from '@iconify-icons/file-icons/coreldraw';
+
 
 
 function About() {
@@ -24,18 +30,37 @@ function About() {
                     <a className="cv" href={MyPDF} download="CV Karolis Soblinskas.pdf">My CV</a>
                 </div>
                 <div className="about-icon-div">
-                    <p>The technologies which I use</p>
                     <div className="about-icon">
-                        <AiFillHtml5 className="icon"/>
-                        <IoLogoCss3 className="icon"/>
-                        <SiJavascript className="icon"/>
-                        <FaReact className="icon"/>
-                        <FaNode className="icon"/>
-                        <DiNpm className="icon"/>
-                        <BsFillBootstrapFill className="icon"/>
-                        <DiSass className="icon"/>
-                        <img className="mongoImg" src={img} alt=""/>
+                        <div>
+                            <p>Technologies</p>
+                        </div>
+                        <div className="all-icons-div">
+                            <AiFillHtml5 className="icon"/>
+                            <IoLogoCss3 className="icon"/>
+                            <SiJavascript className="icon"/>
+                            <FaReact className="icon"/>
+                            <FaNode className="icon"/>
+                            <DiNpm className="icon"/>
+                            <BsFillBootstrapFill className="icon"/>
+                            <DiSass className="icon"/>
+                            <img className="mongoImg" src={img} alt=""/>
+                        </div>
+                        <div className="about-icon">
+                            <div>
+                                <p>design</p>
+                            </div>
+
+                            <div>
+                                <DiPhotoshop className="icon"/>
+                                <DiIllustrator className="icon"/>
+                                <SiAdobelightroomcc className="icon"/>
+                                <Icon icon={coreldrawIcon} className="icon" />
+                            </div>
+
+                        </div>
+
                     </div>
+
 
 
                 </div>

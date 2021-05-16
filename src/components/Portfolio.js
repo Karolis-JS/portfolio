@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import Navbar from "./Navbar";
 import img from '../images/recipe page.png'
 import img2 from '../images/rpg_game.png'
-import img3 from '../images/blog_page.gif'
+import img3 from '../images/blog_page.png'
 import img4 from '../images/rent.gif'
 import mob from '../images/mob.png'
 import nuru from '../images/nuru_mobile.gif'

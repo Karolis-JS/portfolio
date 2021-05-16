@@ -549,11 +549,10 @@ figure.snip0015:hover figcaption p {
    width: 105%;
 }
 .about-icon-div{
-  margin-top: 10px;
   font-family: 'Lato', sans-serif;
   color: white;
   width: 40%;
-  padding: 10px;
+  padding: 6px;
 }
 .about-icon-div p{
   margin: 0px;
@@ -561,15 +560,16 @@ figure.snip0015:hover figcaption p {
 }
 .about-icon{
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
-.about-icon i{
-  font-size: 40px;
-  margin: 10px;
-  transition: .3s;
+.all-icons-div{
+    width: 92%;
+    padding: 0;
 }
+
 .cv{
   display: flex;
   justify-content: center;
@@ -593,11 +593,12 @@ figure.snip0015:hover figcaption p {
 .icon{
   font-size: 40px;
   margin: 10px;
-  transition: .3s;
+  transition: .1s;
 }
 .icon:hover{
-  transform: scale(1.6);
+  transform: scale(1.5);
 }
+
 .about-icon span{
   position: absolute;
   font-family: 'Raleway', sans-serif;
@@ -949,6 +950,7 @@ figure.snip0015:hover figcaption p {
   .about-icon{
     align-items: center;
     justify-content: center;
+    padding: 5px;
 
   }
   .mobile-about-text{
@@ -964,7 +966,11 @@ figure.snip0015:hover figcaption p {
     }
 
   .icon{
-    font-size: 35px;
+   padding: 0px;
+    font-size: 28px;
+  }
+  .mongoImg{
+      height: 30px;
   }
   .here-me{
     position: absolute;
