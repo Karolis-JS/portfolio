@@ -25,9 +25,9 @@ function HomeText() {
 
     return (
         <div className="home-text">
-            <p>Hi! Nice to meet,</p>
+            <p className="mb-10">Hi! Nice to meet,</p>
             <h1 className="title-hover">I'm Karolis,</h1>
-            <div className="d-flex mt-20 text-left mobile-size">
+            <div className="d-flex mt-10 text-left mobile-size">
                 <p className="mr-10">Junior</p>
                 <TextTransition
                     text={ TEXTS[index % TEXTS.length] }
