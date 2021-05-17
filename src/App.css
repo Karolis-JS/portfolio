@@ -1070,6 +1070,9 @@ figure.snip0015:hover figcaption p {
 .location{
     margin: 0 10px 10px 0;
 }
+.glitch {
+        font-size: 34px;
+}
 
 .line{
     display: none;
