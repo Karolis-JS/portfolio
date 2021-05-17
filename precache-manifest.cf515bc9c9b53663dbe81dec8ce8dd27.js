@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "ebdb474a088367edb7e8",
-    "url": "/portfolio/static/css/main.87caee52.chunk.css"
+    "revision": "c68d2bb616b66a0801ae",
+    "url": "/portfolio/static/css/main.da392c36.chunk.css"
   },
   {
-    "revision": "ebdb474a088367edb7e8",
+    "revision": "c68d2bb616b66a0801ae",
     "url": "/portfolio/static/js/main.d3de46a3.chunk.js"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/nurui_for_mobile.b15c9a3d.png"
   },
   {
-    "revision": "cc1ab30fb29869a9395df2972b5f9c9e",
+    "revision": "2aeef01d324f88c94d2153eefb9635d2",
     "url": "/portfolio/index.html"
   }
 ];
