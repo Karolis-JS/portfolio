@@ -47,6 +47,7 @@ body {
 }
 
 .page {
+    background-color: #2f4454;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,6 +58,8 @@ body {
 }
 
 .navbar {
+    background-color: #324656;
+    box-shadow: inset 0px -15px 20px 0px rgba(20,20,20,0.7);
     position: sticky;
     left: 0;
     right: 0;
@@ -65,7 +68,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 10vh;
+    height: 8.5vh;
     z-index: 1;
 }
 
@@ -171,6 +174,7 @@ body {
 .homeImg {
     right: 0;
     bottom: 0;
+    padding-top: 14px;
     position: absolute;
     width: 65%;
     height: 55vh;
@@ -220,7 +224,7 @@ body {
 
 .title-hover {
    font-size: 38px;
-   animation: dubstep 1.5s infinite ease-in-out;
+   animation: dubstep 1.5s infinite ease-out;
 }
 
 @keyframes dubstep {
@@ -228,29 +232,29 @@ body {
         text-shadow: 0 0 0 #fff;
     }
     40% {
-        text-shadow: 3px 0 0 #da7b93;
+        text-shadow: 3px 0 0 #4A252C;
     }
     43% {
-        text-shadow: 3px 0 0 #2E151B,
-        15px 0 0 #da7b93,
+        text-shadow: 10px 5px 5px #2E151B,
+        15px 0 0 #4A252C,
         -7px 0 0 #376e6f;
         color: #f1f1f1;
     }
     44% {
-        text-shadow: 3px 0 0 #2E151B,
-        15px 2px 0 #da7b93,
+        text-shadow: 10px 5px 5px #2E151B,
+        15px 2px 0 #4A252C,
         -7px -1.5px 0 #376e6f;
         color: rgba(0, 0, 0, 0.2);
     }
     45% {
-        text-shadow: 3px 0 0 #2E151B,
-        15px 0 0 #da7b93,
+        text-shadow: 10px 5px 5px #2E151B,
+        15px 0 0 #4A252C,
         -7px 0 0 #376e6f;
         color: #f1f1f1;
     }
     60% {
-        text-shadow: 3px 0 0 #2E151B,
-        20px 0 0 #da7b93,
+        text-shadow: 10px 5px 5px #2E151B,
+        20px 0 0 #4A252C,
         -15px 0 0 #376e6f;
         color: #f1f1f1;
     }
@@ -279,6 +283,7 @@ body {
 }
 
 .l-size {
+    margin-top: 9px;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -694,12 +699,21 @@ figure.snip0015:hover figcaption p {
 }
 
 .icon {
-    font-size: 40px;
+    font-size: 38px;
     margin: 10px;
     transition: .1s;
 }
+.icon2{
+    font-size: 35px;
+    margin: 10px;
+    transition: .1s;
+
+}
 
 .icon:hover {
+    transform: scale(1.5);
+}
+.icon2:hover {
     transform: scale(1.5);
 }
 
@@ -711,7 +725,7 @@ figure.snip0015:hover figcaption p {
 
 .mongoImg {
     margin: 5px;
-    height: 40px;
+    height: 38px;
     transition: .3s;
 }
 
@@ -811,7 +825,8 @@ figure.snip0015:hover figcaption p {
 
 .contact-icon a {
     margin: 0;
-    padding: 2px;
+    padding: 4px;
+
 }
 
 .contact-icon a {
@@ -820,7 +835,7 @@ figure.snip0015:hover figcaption p {
 
 .contact-icon p {
     padding: 0;
-    margin: 0;
+    margin: 7px 0;
 }
 
 .fb {
@@ -860,7 +875,7 @@ figure.snip0015:hover figcaption p {
     font-size: 10px;
     color: #e5c7d2;
     animation-name: drop;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     opacity: 0;
 }
@@ -869,8 +884,23 @@ figure.snip0015:hover figcaption p {
     0% {
         opacity: 0;
     }
-    50% {
+    38%{
+        opacity: 0;
+    }
+    40% {
         opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    58%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
     }
     100% {
         opacity: 0;
@@ -1122,6 +1152,8 @@ figure.snip0015:hover figcaption p {
 
     .navbar-mobile {
         display: flex;
+        background-color: #324656;
+        box-shadow: inset 0px -15px 20px 0px rgba(20,20,20,0.7);
     }
 
     .navbar a {
@@ -1187,6 +1219,10 @@ figure.snip0015:hover figcaption p {
     .icon {
         padding: 0px;
         font-size: 28px;
+    }
+    .icon2 {
+        padding: 0px;
+        font-size: 26px;
     }
 
     .mongoImg {
