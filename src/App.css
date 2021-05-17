@@ -664,24 +664,24 @@ figure.snip0015:hover figcaption p {
 
 .wrapper {
     text-align: center;
+    -webkit-background-clip: text;
 }
 .glitch {
-    color: #fff;
+    color: #2f4454;
     font-size: 30px;
+    padding: 0px 5px ;
     text-transform: uppercase;
     font-weight: 700;
     background: linear-gradient(to right, #da7b93 30%, #2E151B 60%, #2f4454 20%);
-    background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
-    color: #fff;
     text-fill-color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 1.5s linear infinite;
-    display: inline-block;
+    display: inline;
 }
+.glitch::after { content: "\A\A"; white-space: pre; }
 
 @keyframes textclip {
     to {
