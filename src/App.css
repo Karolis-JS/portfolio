@@ -678,6 +678,7 @@ figure.snip0015:hover figcaption p {
     text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
     animation: textclip 1.5s linear infinite;
     display: inline;
 }
