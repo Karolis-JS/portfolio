@@ -636,6 +636,9 @@ figure.snip0015:hover figcaption p {
   margin-right: 10px;
   font-size: 30px;
   color: white;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 .line{
     height: 200px;
@@ -675,8 +678,8 @@ figure.snip0015:hover figcaption p {
     padding: 0px 5px ;
     text-transform: uppercase;
     font-weight: 700;
+    /*-webkit-background-clip: text;*/
     text-fill-color: transparent;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
     display: inline-block;
@@ -695,13 +698,19 @@ figure.snip0015:hover figcaption p {
 .contact-info p{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 .contact-icon{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  /*color: white;*/
   font-size: 40px;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 .contact-icon a{
   margin: 0;
@@ -709,6 +718,9 @@ figure.snip0015:hover figcaption p {
 }
 .contact-icon a{
   color: white;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 .contact-icon p{
   padding: 0;
@@ -1066,6 +1078,7 @@ figure.snip0015:hover figcaption p {
 }
 .location{
     margin: 0 10px 10px 0;
+
 }
 
 .line{

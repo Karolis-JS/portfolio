@@ -13,8 +13,8 @@ function Contacts() {
             <Navbar />
             <div >
 
-                <div className="contact-location">
-                    <div className="wrapper">
+                <div className="contact-location wrapper">
+                    <div className="">
                         <h1 className="glitch">CONTACT ME</h1>
                     </div>
                     <div className="line"></div>
