@@ -73,7 +73,7 @@ function Portfolio() {
                                 <h2>Simple <span>booking</span> application with registration</h2>
                                 <p>JavaScript, nodeJS, express-session</p>
 
-                                <a style={{outline: "none"}} href="#">
+                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/simple-booking-app">
                                     <p className="see-code">See code</p>
                                 </a>
                             </figcaption>
@@ -123,7 +123,7 @@ function Portfolio() {
                             <p>JavaScript, nodeJS, express-session</p>
                         </div>
                         <img src={img4} alt=""/>
-                        <a href="#">
+                        <a href="https://github.com/Karolis-JS/simple-booking-app">
                             <div className="goToCode">Go to code</div>
                         </a>
                     </div>
