@@ -675,7 +675,7 @@ figure.snip0015:hover figcaption p {
     padding: 0px 5px ;
     text-transform: uppercase;
     font-weight: 700;
-    /*-webkit-background-clip: text;*/
+    -webkit-background-clip: text;
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
     color: transparent;
