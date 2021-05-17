@@ -668,6 +668,7 @@ figure.snip0015:hover figcaption p {
     -webkit-background-clip: text;
     background-clip: border-box;
     background-size: 200% auto;
+    animation: textclip 1.5s linear infinite;
 }
 .glitch {
     /*color: #2f4454;*/
@@ -682,7 +683,6 @@ figure.snip0015:hover figcaption p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    animation: textclip 1.5s linear infinite;
     display: inline-block;
 }
 
