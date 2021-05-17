@@ -83,7 +83,7 @@ function Portfolio() {
 
                 </div>
             </div>
-            <div className="mobile-size">
+            <div className="mobile-size-portfolio">
                 <div className="portfolio-main">
                     <div className="portfolio-card">
                         <div className="app-description">
