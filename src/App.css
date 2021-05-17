@@ -642,26 +642,52 @@ figure.snip0015:hover figcaption p {
     margin: 0 20px;
     border-right: 2px solid white;
 }
-.glitch{
+/*.glitch{*/
+/*    color: #fff;*/
+/*    font-size: 30px;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 700;*/
+/*    background: linear-gradient(to right, #da7b93 30%, #2E151B 60%, #2f4454 20%);*/
+/*    background-clip: border-box;*/
+/*    background-size: 200% auto;*/
+/*    -webkit-background-clip: text;*/
+/*    -webkit-text-fill-color: transparent;*/
+/*    animation: textclip 2.5s linear infinite;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*@keyframes textclip {*/
+/*    to {*/
+/*        background-position: -200% center;*/
+/*    }*/
+/*}*/
+
+.wrapper {
+    text-align: center;
+}
+.glitch {
     color: #fff;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
-    background: linear-gradient(to right, #da7b93 30%, #2E151B 60%, #2f4454 20%);
+    background: linear-gradient(to right, #da7b93 30%, #2E151B 60%, #2f4454 20%);;
+    background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 2.5s linear infinite;
+    animation: textclip 1.5s linear infinite;
     display: inline-block;
 }
 
 @keyframes textclip {
     to {
-        background-position: -200% center;
+        background-position: 200% center;
     }
 }
-
 .contact-info{
     display: flex;
     align-items: center;
@@ -679,6 +705,7 @@ figure.snip0015:hover figcaption p {
 }
 .contact-icon a{
   margin: 0;
+  padding: 2px;
 }
 .contact-icon a{
   color: white;

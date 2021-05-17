@@ -14,7 +14,7 @@ function Contacts() {
             <div >
 
                 <div className="contact-location">
-                    <div>
+                    <div className="wrapper">
                         <h1 className="glitch">CONTACT ME</h1>
                     </div>
                     <div className="line"></div>
