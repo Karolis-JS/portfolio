@@ -20,6 +20,16 @@ body {
     background-image: url("./images/bg.gif");
     background-size: cover;
     opacity: 0.4;
+}
+.main2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-image: url("./images/rombai-bg.jpg");
+    background-size: cover;
+    opacity: 0.4;
 
 }
 .App {
@@ -748,11 +758,10 @@ figure.snip0015:hover figcaption p {
 }
 
 .contact-location {
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-top: 3%;
+    margin: 3% 0 0 0;
     font-family: 'Raleway', sans-serif;
-    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -764,6 +773,7 @@ figure.snip0015:hover figcaption p {
     margin-right: 10px;
     font-size: 30px;
     color: white;
+    margin-top: 12px;
 }
 
 .line {
@@ -793,6 +803,8 @@ figure.snip0015:hover figcaption p {
 /*}*/
 
 .wrapper {
+    width: 46%;
+    padding: 0 2%;
     text-align: center;
     background: linear-gradient(to right, #da7b93 30%, #2E151B 60%, #2f4454 20%);
     -webkit-background-clip: text;
@@ -802,7 +814,7 @@ figure.snip0015:hover figcaption p {
 }
 
 .glitch {
-    font-size: 30px;
+    font-size: 40px;
     padding: 0 5px;
     text-transform: uppercase;
     font-weight: 700;
@@ -819,7 +831,14 @@ figure.snip0015:hover figcaption p {
     }
 }
 
-
+.contact-div{
+    width: 40%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .contact-info {
     display: flex;
     align-items: center;
@@ -827,15 +846,19 @@ figure.snip0015:hover figcaption p {
 
 .contact-info p {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 3px;
 }
 
 .contact-icon {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    align-items: center;
     color: white;
     font-size: 40px;
+    margin-top: 20px;
 }
 
 .contact-icon a {
@@ -1284,9 +1307,11 @@ figure.snip0015:hover figcaption p {
         margin: 0 10px 10px 0;
     }
 
-
+.wrapper{
+    width: 95%;
+}
     .glitch {
-
+        width: 95%;
         font-size: 36px;
         padding: 0;
     }
@@ -1309,6 +1334,9 @@ figure.snip0015:hover figcaption p {
         width: 100%;
         opacity: .2;
         background-position: center;
+    }
+    .main2{
+        display: none;
     }
 
     .drop {
