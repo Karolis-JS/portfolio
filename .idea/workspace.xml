@@ -4,7 +4,7 @@
     <list default="true" id="50b8980f-51e8-42fc-8c39-2b3e73f3d4d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/bg.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../books-booking-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-fetch-comunication" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -58,7 +58,7 @@
       <workItem from="1621190229942" duration="3806000" />
       <workItem from="1621228491693" duration="8259000" />
       <workItem from="1621254527575" duration="18760000" />
-      <workItem from="1621315080048" duration="1760000" />
+      <workItem from="1621315080048" duration="10596000" />
     </task>
     <servers />
   </component>

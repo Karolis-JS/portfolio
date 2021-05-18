@@ -9,26 +9,25 @@
 
 body {
     background-color: #2f4454;
-
+    overflow: hidden;
 }
 .main{
     position: absolute;
-    left: -24%;
     top: 0;
-    width: 100%;
-    height: 100vh;
+    left: 14%;
+    width:36%;
+    height: 100%;
     background-image: url("./images/bg.gif");
-    background-position: center;
     background-size: cover;
-    opacity: 0.3;
-    transform: rotate(90deg);
+    opacity: 0.4;
+
 }
 .App {
     text-align: center;
 }
 
 .center {
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -58,7 +57,8 @@ body {
 }
 
 .page {
-    background-color: #2f4454;
+    /*background-color: #2f4454;*/
+    background: linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(47,68,84,1) 50%);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -187,13 +187,16 @@ body {
     bottom: 0;
     padding-top: 14px;
     position: absolute;
-    width: 65%;
+    width: 50%;
     height: 55vh;
-    background: linear-gradient(90deg, rgba(47, 68, 84, 1) 0%, rgba(55, 110, 111, 0.5550595238095238) 100%);
+    background: linear-gradient(90deg,  rgb(47, 68, 84) 0%, rgba(28, 41, 50,.6) 100%);
 }
 
 .homeImg img {
-    height: 100%;
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+    height: 95%;
     animation-name: photo;
     animation-duration: 1.5s;
 }
@@ -201,7 +204,7 @@ body {
 @keyframes photo {
     0% {
         opacity: 0;
-        transform: translateX(15%);
+        transform: translateX(35%);
     }
     100% {
         opacity: 1;
@@ -243,7 +246,7 @@ body {
         text-shadow: 0 0 0 #fff;
     }
     40% {
-        text-shadow: 3px 0 0 #4A252C;
+        text-shadow: 0px 0 0 #4A252C;
     }
     43% {
         text-shadow: 10px 5px 5px #2E151B,
@@ -616,12 +619,12 @@ figure.snip0015:hover figcaption p {
 
 .about-text {
     font-family: 'Nixie One', cursive;
-    margin-top: 30px;
+    margin-top: 25px;
     text-align: justify;
     color: white;
-    padding: 0px 20px 20px 40px;
-    width: 50%;
-    height: 250px;
+    padding: 0px 20px 15px 20px;
+    width: 40%;
+    height: 300px;
     overflow: auto;
 }
 
@@ -661,7 +664,7 @@ figure.snip0015:hover figcaption p {
 .about-icon-div {
     font-family: 'Lato', sans-serif;
     color: white;
-    width: 40%;
+    width: 45%;
     padding: 6px;
 }
 
@@ -815,8 +818,7 @@ figure.snip0015:hover figcaption p {
         background-position: -200% center;
     }
 }
-.main{
-}
+
 
 .contact-info {
     display: flex;
@@ -901,7 +903,7 @@ figure.snip0015:hover figcaption p {
         opacity: 0;
     }
     40% {
-        opacity: 1;
+        opacity: .5;
     }
     50%{
         opacity: 0;
@@ -910,7 +912,7 @@ figure.snip0015:hover figcaption p {
         opacity: 0;
     }
     60%{
-        opacity: 1;
+        opacity: 0;
     }
     70%{
         opacity: 0;
@@ -1123,7 +1125,7 @@ figure.snip0015:hover figcaption p {
     }
 
     .page {
-        background-color: unset;
+        background: linear-gradient(90deg, rgba(47,68,84,0.05) 100%, rgba(0,0,0,0) 100%);
         margin-top: 0;
         width: 90%;
         height: 89vh;
@@ -1149,7 +1151,7 @@ figure.snip0015:hover figcaption p {
     }
 
     .mobile-size-portfolio {
-        margin-top: 15px;
+        margin-top: 20px;
         display: flex;
     }
 
@@ -1181,9 +1183,14 @@ figure.snip0015:hover figcaption p {
     }
 
     .circle1 {
-        left: 52%;
+        left: 60%;
         top: 25%;
     }
+    .circle3 {
+        left:9%;
+        top: 15%;
+    }
+
 
     .circle4 {
         position: absolute;
@@ -1295,6 +1302,13 @@ figure.snip0015:hover figcaption p {
 
     .contact-icon a {
         margin: 0 20px;
+    }
+    .main{
+        left: 0;
+        top: 0;
+        width: 100%;
+        opacity: .2;
+        background-position: center;
     }
 
     .drop {
