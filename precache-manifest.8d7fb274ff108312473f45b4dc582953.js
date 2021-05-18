@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1e42a47f219601eaa6b3",
-    "url": "/portfolio/static/css/main.6f5f4816.chunk.css"
+    "revision": "16477a69b2a99dba9e10",
+    "url": "/portfolio/static/css/main.b36d67c8.chunk.css"
   },
   {
-    "revision": "1e42a47f219601eaa6b3",
-    "url": "/portfolio/static/js/main.93ec7d8f.chunk.js"
+    "revision": "16477a69b2a99dba9e10",
+    "url": "/portfolio/static/js/main.2dca1675.chunk.js"
   },
   {
     "revision": "07aa45f5d813c9dc2045",
@@ -60,11 +60,15 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/nurui_for_mobile.b15c9a3d.png"
   },
   {
+    "revision": "22bb05ae6baeea2388c9fc769948dfa8",
+    "url": "/portfolio/static/media/rombai-bg.22bb05ae.jpg"
+  },
+  {
     "revision": "91b8c5f1bf3b7798677d402a00dc467a",
     "url": "/portfolio/static/media/bg.91b8c5f1.gif"
   },
   {
-    "revision": "9181f5b3b95e9e5d60e7fb914f39087d",
+    "revision": "6b366f01ffddcfcee77941ca56ddfba6",
     "url": "/portfolio/index.html"
   }
 ];
