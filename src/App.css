@@ -232,6 +232,7 @@ body {
     padding: 20px 20px 20px 70px;
     color: white;
     z-index: 1;
+    margin-top: 15px;
 }
 
 .home-text h1 {
@@ -253,33 +254,38 @@ body {
 
 @keyframes dubstep {
     0% {
-        text-shadow: 0 0 0 #fff;
+
+        text-shadow: 0px 0 0 #fff;
+
     }
     40% {
-        text-shadow: 0px 0 0 #4A252C;
+
+        text-shadow: 0px 0 0 #fff;
+
     }
     43% {
         text-shadow: 10px 5px 5px #2E151B,
         15px 0 0 #4A252C,
-        -7px 0 0 #376e6f;
+        -7px 0 0 #273D53;
         color: #f1f1f1;
     }
     44% {
         text-shadow: 10px 5px 5px #2E151B,
         15px 2px 0 #4A252C,
-        -7px -1.5px 0 #376e6f;
+        -7px -1.5px 0 #273D53;
         color: rgba(0, 0, 0, 0.2);
+        color: #f1f1f1;
     }
     45% {
         text-shadow: 10px 5px 5px #2E151B,
         15px 0 0 #4A252C,
-        -7px 0 0 #376e6f;
+        -7px 0 0 #273D53;
         color: #f1f1f1;
     }
     60% {
         text-shadow: 10px 5px 5px #2E151B,
         20px 0 0 #4A252C,
-        -15px 0 0 #376e6f;
+        -15px 0 0 #273D53;
         color: #f1f1f1;
     }
 
@@ -853,7 +859,6 @@ figure.snip0015:hover figcaption p {
 .contact-icon {
     display: flex;
     width: 100%;
-    /*flex-direction: column;*/
     justify-content: space-around;
     align-items: center;
     color: white;
@@ -864,13 +869,8 @@ figure.snip0015:hover figcaption p {
 .contact-icon a {
     margin: 0;
     padding: 4px;
-
-}
-
-.contact-icon a {
     color: white;
 }
-
 .contact-icon p {
     padding: 0;
     margin: 7px 0;
@@ -1160,7 +1160,7 @@ figure.snip0015:hover figcaption p {
     .home-text {
         width: 80%;
         position: absolute;
-        top: 15%;
+        top: 10%;
         left: -7%;
         z-index: 1;
     }
@@ -1206,12 +1206,12 @@ figure.snip0015:hover figcaption p {
     }
 
     .circle1 {
-        left: 60%;
+        left: 55%;
         top: 25%;
     }
     .circle3 {
-        left:9%;
-        top: 15%;
+        left:8%;
+        top: 14%;
     }
 
 
@@ -1219,6 +1219,10 @@ figure.snip0015:hover figcaption p {
         position: absolute;
         left: 30%;
         top: 85%;
+    }
+    .circle5 {
+        left: 75%;
+        top: 70%;
     }
 
     .circle2 {
@@ -1365,7 +1369,26 @@ figure.snip0015:hover figcaption p {
         padding: 14px 5px;
     }
     .circle1 {
-        left: 45%;
-        top: 25%;
+        left: 55%;
+        top: 30%;
     }
 }
+@media only screen and (min-width: 1600px) {
+    .l-size{
+        margin-top: 3%;
+    }
+    .xl-size-about{
+        margin-top: 3%;
+    }
+    .home-text{
+        margin: 5% 0 0 5%;
+    }
+    .contact-location{
+        margin-top: 8%;
+    }
+    .contact-icon {
+        width: 78%;
+        justify-content: space-around;
+    }
+}
+
