@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "63ac6078cade5313f4e0",
-    "url": "/portfolio/static/css/main.bda3e50a.chunk.css"
+    "revision": "1e42a47f219601eaa6b3",
+    "url": "/portfolio/static/css/main.6f5f4816.chunk.css"
   },
   {
-    "revision": "63ac6078cade5313f4e0",
+    "revision": "1e42a47f219601eaa6b3",
     "url": "/portfolio/static/js/main.93ec7d8f.chunk.js"
   },
   {
@@ -60,11 +60,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/nurui_for_mobile.b15c9a3d.png"
   },
   {
-    "revision": "7908edb4e8118c8042e10ffa321d5d88",
-    "url": "/portfolio/static/media/bg.7908edb4.gif"
+    "revision": "91b8c5f1bf3b7798677d402a00dc467a",
+    "url": "/portfolio/static/media/bg.91b8c5f1.gif"
   },
   {
-    "revision": "94ab15de005bbaa2de18b1c02cbb4fc6",
+    "revision": "9181f5b3b95e9e5d60e7fb914f39087d",
     "url": "/portfolio/index.html"
   }
 ];
