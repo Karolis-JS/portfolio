@@ -24,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+        <div className="main"></div>
         <Router>
             <Circle1/>
             <Circle2/>
