@@ -30,18 +30,18 @@ function Contacts() {
                         </div>
                         <div className="contact-icon">
                             <p>
-                                <a href="https://www.facebook.com/karolis.soblinskas" target="_blank">
+                                <a href="https://www.facebook.com/karolis.soblinskas" target="_blank" rel="noopener noreferrer" >
                                     <SiFacebook className="fb"/>
                                 </a>
                             </p>
 
                             <p>
-                                <a href="https://www.linkedin.com/in/karolis-%C5%A1oblinskas-a98b53113/" target="_blank">
+                                <a href="https://www.linkedin.com/in/karolis-%C5%A1oblinskas-a98b53113/" target="_blank" rel="noopener noreferrer" >
                                     <AiFillLinkedin className="linkedin"/>
                                 </a>
                             </p>
                             <p>
-                                <a href="https://www.instagram.com/karolis_soblinskas/" target="_blank">
+                                <a href="https://www.instagram.com/karolis_soblinskas/" target="_blank" rel="noopener noreferrer">
                                     <GrInstagram className="instagram"/>
                                 </a>
                             </p>
