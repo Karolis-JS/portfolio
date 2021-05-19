@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0c79af9efb6595739bcd",
+    "revision": "fb5f601f94acff223045",
     "url": "/portfolio/static/css/main.2dc8204a.chunk.css"
   },
   {
-    "revision": "0c79af9efb6595739bcd",
-    "url": "/portfolio/static/js/main.94b9c604.chunk.js"
+    "revision": "fb5f601f94acff223045",
+    "url": "/portfolio/static/js/main.3418caa3.chunk.js"
   },
   {
     "revision": "16e3ed520ddd84c6d7b8",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/mongodb.ed0f4221.png"
   },
   {
-    "revision": "e5334323e3271436a3e754314cd4c889",
-    "url": "/portfolio/static/media/CV Karolis Soblinskas.e5334323.pdf"
+    "revision": "5bf0cf6185e05609b975d6733ebf9cb6",
+    "url": "/portfolio/static/media/CV_Karolis_Soblinskas_Full-stack.5bf0cf61.pdf"
   },
   {
     "revision": "15df06f1c1991f0def9a7e49dbbb8f85",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/nurui_for_mobile.b15c9a3d.png"
   },
   {
-    "revision": "fc31025d084ead163a059817eb9e8f2b",
-    "url": "/portfolio/static/media/circle-bg-2.fc31025d.jpg"
-  },
-  {
     "revision": "22bb05ae6baeea2388c9fc769948dfa8",
     "url": "/portfolio/static/media/rombai-bg.22bb05ae.jpg"
+  },
+  {
+    "revision": "fc31025d084ead163a059817eb9e8f2b",
+    "url": "/portfolio/static/media/circle-bg-2.fc31025d.jpg"
   },
   {
     "revision": "64a15ede0c108ad9f257bef8edaf1d3f",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/bg.91b8c5f1.gif"
   },
   {
-    "revision": "605321ca04c25893f4ee1277a27de8fb",
+    "revision": "b9f0d9dba5b73753092fbf7de4291f55",
     "url": "/portfolio/index.html"
   }
 ];
