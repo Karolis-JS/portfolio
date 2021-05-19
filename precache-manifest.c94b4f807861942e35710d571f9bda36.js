@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "fc97d5848d4bee501739",
-    "url": "/portfolio/static/css/main.85f5000c.chunk.css"
+    "revision": "0c79af9efb6595739bcd",
+    "url": "/portfolio/static/css/main.2dc8204a.chunk.css"
   },
   {
-    "revision": "fc97d5848d4bee501739",
+    "revision": "0c79af9efb6595739bcd",
     "url": "/portfolio/static/js/main.94b9c604.chunk.js"
   },
   {
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/nurui_for_mobile.b15c9a3d.png"
   },
   {
+    "revision": "fc31025d084ead163a059817eb9e8f2b",
+    "url": "/portfolio/static/media/circle-bg-2.fc31025d.jpg"
+  },
+  {
     "revision": "22bb05ae6baeea2388c9fc769948dfa8",
     "url": "/portfolio/static/media/rombai-bg.22bb05ae.jpg"
   },
@@ -68,15 +72,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/circle-bg-1.64a15ede.png"
   },
   {
-    "revision": "fc31025d084ead163a059817eb9e8f2b",
-    "url": "/portfolio/static/media/circle-bg-2.fc31025d.jpg"
-  },
-  {
     "revision": "91b8c5f1bf3b7798677d402a00dc467a",
     "url": "/portfolio/static/media/bg.91b8c5f1.gif"
   },
   {
-    "revision": "85fb51469be33567ec840816322fb7fe",
+    "revision": "605321ca04c25893f4ee1277a27de8fb",
     "url": "/portfolio/index.html"
   }
 ];
