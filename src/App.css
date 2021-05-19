@@ -888,42 +888,6 @@ figure.snip0015:hover figcaption p {
     -webkit-text-fill-color: transparent;
 }
 
-.drop {
-    font-size: 10px;
-    color: #e5c7d2;
-    animation-name: drop;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    opacity: 0;
-}
-
-@keyframes drop {
-    0% {
-        opacity: 0;
-    }
-    38%{
-        opacity: 0;
-    }
-    40% {
-        opacity: .5;
-    }
-    50%{
-        opacity: 0;
-    }
-    58%{
-        opacity: 0;
-    }
-    60%{
-        opacity: 0;
-    }
-    70%{
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
 .circle1 {
     display: flex;
     justify-content: center;
@@ -1038,19 +1002,15 @@ figure.snip0015:hover figcaption p {
 
 @media only screen and (max-width: 450px) {
 
-    body{
-        width: 100%;
-        overflow: hidden;
-    }
     .App {
         width: 97%;
         height: 97vh;
-        overflow: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
+        overflow: hidden;
     }
 
     .page {
@@ -1118,6 +1078,16 @@ figure.snip0015:hover figcaption p {
         left: 30%;
         top: 65%;
         transform: rotate(70deg);
+    }
+    @keyframes anim1 {
+        0% {
+            opacity: 0;
+            transform: rotate(40deg);
+        }
+        100% {
+            opacity: 1;
+            transform: rotate(70deg);
+        }
     }
 
     .circle2 {
