@@ -14,6 +14,7 @@ import { DiSass } from 'react-icons/di';
 import { DiPhotoshop } from 'react-icons/di';
 import { DiIllustrator } from 'react-icons/di';
 import { SiAdobelightroomcc } from 'react-icons/si';
+import { AiFillGithub } from 'react-icons/ai';
 import { Icon, InlineIcon } from '@iconify/react';
 import coreldrawIcon from '@iconify-icons/file-icons/coreldraw';
 
@@ -44,6 +45,7 @@ function About() {
                             <BsFillBootstrapFill className="icon"/>
                             <DiSass className="icon"/>
                             <img className="mongoImg" src={img} alt=""/>
+                            <AiFillGithub className="icon"/>
                         </div>
                         <div className="about-icon">
                             <div>

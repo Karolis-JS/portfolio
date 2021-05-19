@@ -945,7 +945,7 @@ figure.snip0015:hover figcaption p {
 .circbg1{
     width: 100%;
     height: 100%;
-    background-image: url("https://wallpaperaccess.com/full/139754.png");
+    background-image: url("./images/circle-bg-1.png");
     background-position: center;
     opacity: .3;
     border-radius: 50%;
@@ -983,7 +983,7 @@ figure.snip0015:hover figcaption p {
 .circbg2{
     width: 100%;
     height: 100%;
-    background-image: url("https://www.wallpapertip.com/wmimgs/24-245383_4k-blue-polygon-bg.jpg");
+    background-image: url("./images/circle-bg-2.jpg");
     opacity: .3;
     border-radius: 50%;
     position: absolute;
@@ -1038,6 +1038,10 @@ figure.snip0015:hover figcaption p {
 
 @media only screen and (max-width: 450px) {
 
+    body{
+        width: 100%;
+        overflow: hidden;
+    }
     .App {
         width: 97%;
         height: 97vh;
@@ -1047,7 +1051,6 @@ figure.snip0015:hover figcaption p {
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
-
     }
 
     .page {
@@ -1058,6 +1061,7 @@ figure.snip0015:hover figcaption p {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+
     }
 
     .home-text {
@@ -1111,8 +1115,8 @@ figure.snip0015:hover figcaption p {
         opacity: .8;
         width: 200px;
         height: 200px;
-        left: 60%;
-        top: 40%;
+        left: 30%;
+        top: 65%;
         transform: rotate(70deg);
     }
 
@@ -1122,6 +1126,9 @@ figure.snip0015:hover figcaption p {
         opacity: .8;
         left: 6%;
         top: 17%;
+    }
+    .circbg2{
+        opacity: .4;
     }
 
     .about-text {
@@ -1257,12 +1264,13 @@ figure.snip0015:hover figcaption p {
     .navbar-mobile a{
         padding: 14px 5px;
     }
+
     .circle1 {
         opacity: .8;
         width: 200px;
         height: 200px;
-        left: 60%;
-        top: 40%;
+        left: 30%;
+        top: 65%;
         transform: rotate(70deg);
     }
 
