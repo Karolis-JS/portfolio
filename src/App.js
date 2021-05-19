@@ -16,9 +16,7 @@ import Portfolio from "./components/Portfolio";
 import Contacts from "./components/Contacts";
 import Circle1 from "./components/Circle1";
 import Circle2 from "./components/Circle2";
-import Circle3 from "./components/Circle3";
-import Circle4 from "./components/Circle4";
-import Circle5 from "./components/Circle5";
+
 
 function App() {
 
@@ -29,9 +27,6 @@ function App() {
         <Router>
             <Circle1/>
             <Circle2/>
-            <Circle3/>
-            <Circle4/>
-            <Circle5/>
             <Switch>
                 <Route render={({location}) => (
                     <TransitionGroup>

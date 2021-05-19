@@ -30,7 +30,7 @@ function Portfolio() {
                                 <h2><span>Recipes</span> application</h2>
                                 <p>react, nodeJS, mongoDb</p>
 
-                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/recipes-page-react-nodejs-mongodb">
+                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/recipes-page-react-nodejs-mongodb" target="_blank">
                                     <p className="see-code">See code</p>
                                 </a>
                             </figcaption>
@@ -43,7 +43,7 @@ function Portfolio() {
                                 <h2><span>RPG</span> game application</h2>
                                 <p>nodeJS, socket.io</p>
 
-                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/rpg-game">
+                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/rpg-game" target="_blank">
                                     <p className="see-code">See code</p>
                                 </a>
                             </figcaption>
@@ -60,7 +60,7 @@ function Portfolio() {
                                 <h2><span>Blog</span> application</h2>
                                 <p>Only Html and Css</p>
 
-                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/blog-app">
+                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/blog-app" target="_blank">
                                     <p className="see-code">See code</p>
                                 </a>
                             </figcaption>
@@ -73,7 +73,7 @@ function Portfolio() {
                                 <h2>Simple <span>booking</span> application with registration</h2>
                                 <p>JavaScript, nodeJS, express-session</p>
 
-                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/simple-booking-app">
+                                <a style={{outline: "none"}} href="https://github.com/Karolis-JS/simple-booking-app" target="_blank">
                                     <p className="see-code">See code</p>
                                 </a>
                             </figcaption>
@@ -91,7 +91,7 @@ function Portfolio() {
                             <p>react, nodeJS, mongoDb</p>
                         </div>
                         <img src={img} alt=""/>
-                        <a href="https://github.com/Karolis-JS/recipes-page-react-nodejs-mongodb">
+                        <a href="https://github.com/Karolis-JS/recipes-page-react-nodejs-mongodb" target="_blank">
                             <div className="goToCode">Go to code</div>
                         </a>
                     </div>
@@ -101,7 +101,7 @@ function Portfolio() {
                             <p>nodeJS, socket.io</p>
                         </div>
                         <img src={img2} alt=""/>
-                        <a href="https://github.com/Karolis-JS/rpg-game">
+                        <a href="https://github.com/Karolis-JS/rpg-game" target="_blank">
                             <div className="goToCode">Go to code</div>
                         </a>
                     </div>
@@ -112,7 +112,7 @@ function Portfolio() {
                         </div>
 
                         <img src={nuruimob} alt=""/>
-                        <a href="https://github.com/Karolis-JS/blog-app">
+                        <a href="https://github.com/Karolis-JS/blog-app" target="_blank">
                             <div className="goToCode">Go to code</div>
                         </a>
                     </div>
@@ -123,7 +123,7 @@ function Portfolio() {
                             <p>JavaScript, nodeJS, express-session</p>
                         </div>
                         <img src={img4} alt=""/>
-                        <a href="https://github.com/Karolis-JS/simple-booking-app">
+                        <a href="https://github.com/Karolis-JS/simple-booking-app" target="_blank">
                             <div className="goToCode">Go to code</div>
                         </a>
                     </div>

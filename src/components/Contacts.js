@@ -17,7 +17,6 @@ function Contacts() {
                     <div className="wrapper ">
                         <h1 className="glitch">CONTACT ME</h1>
                     </div>
-                    {/*<div className="line"></div>*/}
                     <div className="contact-div">
                         <div>
                             <div className="contact-info">
@@ -29,21 +28,20 @@ function Contacts() {
                                 <p>karolis.soblinskas@gmail.com</p>
                             </div>
                         </div>
-                        {/*<div className="line"></div>*/}
                         <div className="contact-icon">
                             <p>
-                                <a href="https://www.facebook.com/karolis.soblinskas">
+                                <a href="https://www.facebook.com/karolis.soblinskas" target="_blank">
                                     <SiFacebook className="fb"/>
                                 </a>
                             </p>
 
                             <p>
-                                <a href="https://www.linkedin.com/in/karolis-%C5%A1oblinskas-a98b53113/">
+                                <a href="https://www.linkedin.com/in/karolis-%C5%A1oblinskas-a98b53113/" target="_blank">
                                     <AiFillLinkedin className="linkedin"/>
                                 </a>
                             </p>
                             <p>
-                                <a href="https://www.instagram.com/karolis_soblinskas/">
+                                <a href="https://www.instagram.com/karolis_soblinskas/" target="_blank">
                                     <GrInstagram className="instagram"/>
                                 </a>
                             </p>

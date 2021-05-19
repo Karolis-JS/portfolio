@@ -54,7 +54,7 @@ function About() {
                                 <DiPhotoshop className="icon"/>
                                 <DiIllustrator className="icon"/>
                                 <SiAdobelightroomcc className="icon2"/>
-                                <Icon icon={coreldrawIcon} className="icon2" />
+                                <Icon icon={coreldrawIcon} className="icon3" />
                             </div>
 
                         </div>

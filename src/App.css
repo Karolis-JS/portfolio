@@ -67,8 +67,7 @@ body {
 }
 
 .page {
-    /*background-color: #2f4454;*/
-    background: linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(47,68,84,1) 50%);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(47,68,84,1) 50%, rgb(33, 50, 62) 93%);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -199,7 +198,6 @@ body {
     position: absolute;
     width: 50%;
     height: 55vh;
-    background: linear-gradient(90deg,  rgb(47, 68, 84) 0%, rgba(28, 41, 50,.6) 100%);
 }
 
 .homeImg img {
@@ -298,18 +296,21 @@ body {
     margin-top: 25px;
     width: 100px;
     padding: 5px;
-    border: 3px solid #4a252c;
+    border: 2px solid #4a252c;
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
     box-shadow: 5px 10px 10px 0 rgb(95, 42, 60);
+    transition: .3s;
 }
 
 .here-me:hover {
-    background-color: #4a252c;
-    border: none;
+    background: linear-gradient(0deg, rgba(74,37,44,1) 0%, rgba(22,29,36,1) 100%);
     color: #fff;
-    padding: 8px;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid #171F26;
+
 }
 
 .l-size {
@@ -711,21 +712,22 @@ figure.snip0015:hover figcaption p {
     justify-content: center;
     align-items: center;
     font-family: 'Lato', cursive;
-    margin-top: 25px;
+    margin-top: 20px;
     width: 100px;
     padding: 5px;
-    border: 3px solid #4a252c;
+    border: 2px solid #4a252c;
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
     box-shadow: 5px 10px 10px 0 rgb(95, 42, 60);
+    transition: .3s;
 }
-
 .cv:hover {
-    background-color: #4a252c;
-    border: none;
+    background: linear-gradient(0deg, rgba(74,37,44,1) 0%, rgba(22,29,36,1) 100%);
     color: #fff;
-    padding: 8px;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid #253645;
 }
 
 .icon {
@@ -737,9 +739,12 @@ figure.snip0015:hover figcaption p {
     font-size: 35px;
     margin: 10px;
     transition: .1s;
-
 }
-
+.icon3{
+    font-size: 35px;
+    margin: 10px;
+    transition: .1s;
+}
 .icon:hover {
     transform: scale(1.5);
 }
@@ -755,7 +760,7 @@ figure.snip0015:hover figcaption p {
 
 .mongoImg {
     margin: 5px;
-    height: 38px;
+    height: 35px;
     transition: .3s;
 }
 
@@ -781,32 +786,6 @@ figure.snip0015:hover figcaption p {
     color: white;
     margin-top: 12px;
 }
-
-.line {
-    height: 200px;
-    margin: 0 20px;
-    border-right: 2px solid white;
-}
-
-/*.glitch{*/
-/*    color: #fff;*/
-/*    font-size: 30px;*/
-/*    text-transform: uppercase;*/
-/*    font-weight: 700;*/
-/*    background: linear-gradient(to right, #da7b93 30%, #2E151B 60%, #2f4454 20%);*/
-/*    background-clip: border-box;*/
-/*    background-size: 200% auto;*/
-/*    -webkit-background-clip: text;*/
-/*    -webkit-text-fill-color: transparent;*/
-/*    animation: textclip 2.5s linear infinite;*/
-/*    display: inline-block;*/
-/*}*/
-
-/*@keyframes textclip {*/
-/*    to {*/
-/*        background-position: -200% center;*/
-/*    }*/
-/*}*/
 
 .wrapper {
     width: 46%;
@@ -952,80 +931,28 @@ figure.snip0015:hover figcaption p {
     position: absolute;
     left: 75%;
     top: 5%;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    background-color: #4a252c;
+    background-color: #260f12;
     transition: .1s;
-    cursor: grab;
     animation-name: anim1;
-    animation-duration: 1s;
+    animation-duration: 2.5s;
     animation-direction: alternate;
-    box-shadow: inset -2px 0px 5px 0px rgba(219, 219, 219, 1);
+    box-shadow: inset -2px 0px 5px 0px rgba(219, 219, 219, .4);
+
+}
+.circbg1{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://wallpaperaccess.com/full/139754.png");
+    background-position: center;
+    opacity: .3;
+    border-radius: 50%;
+    position: absolute;
 }
 
 @keyframes anim1 {
-    0% {
-        opacity: 0;
-        transform: translateY(-20vw);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0vw);
-    }
-
-}
-
-.circle2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 17%;
-    top: 77%;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #4a252c;
-    transition: .1s;
-    cursor: grab;
-    animation-name: anim2;
-    animation-duration: 1s;
-    animation-direction: alternate;
-    box-shadow: inset 0px -2px 4px 0px rgba(219, 219, 219, 1);
-}
-
-@keyframes anim2 {
-    0% {
-        opacity: 0;
-        transform: translateY(5vw);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0vw);
-    }
-}
-
-.circle3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 15%;
-    top: 12%;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: #1C3334;
-    transition: .1s;
-    cursor: grab;
-    animation-name: anim3;
-    animation-duration: 0.5s;
-    animation-direction: alternate;
-    box-shadow: inset 0px 2px 5px 0px rgba(219, 219, 219, 1);
-}
-
-@keyframes anim3 {
     0% {
         opacity: 0;
         transform: translateX(-50vw);
@@ -1036,64 +963,41 @@ figure.snip0015:hover figcaption p {
     }
 }
 
-.circle4 {
+.circle2 {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 65%;
-    top: 78%;
-    width: 90px;
-    height: 90px;
+    left: 10%;
+    top: 70%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    background-color: #1C3334;
+    background-color: #260f12;
     transition: .1s;
-    cursor: grab;
-    animation-name: anim4;
-    animation-duration: 1s;
+    animation-name: anim2;
+    animation-duration: 2.5s;
     animation-direction: alternate;
-    box-shadow: inset -1px 0px 3px 0px rgba(219, 219, 219, 1);
+    box-shadow: inset 0px -1px 4px 0px rgba(219, 219, 219, .4);
+}
+.circbg2{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.wallpapertip.com/wmimgs/24-245383_4k-blue-polygon-bg.jpg");
+    opacity: .3;
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(250deg);
 }
 
-@keyframes anim4 {
+@keyframes anim2 {
     0% {
         opacity: 0;
-        transform: translateX(20vw);
+        transform: translateX(70vw);
     }
     100% {
         opacity: 1;
-        transform: translateX(0vw);
-    }
-}
-
-.circle5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 79%;
-    top: 60%;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #a97d8b;
-    transition: .1s;
-    cursor: grab;
-    opacity: 0.5;
-    animation-name: anim5;
-    animation-duration: 1s;
-    animation-direction: alternate;
-    box-shadow: inset -1px 0px 2px 0px rgba(219, 219, 219, 1);
-}
-
-@keyframes anim5 {
-    0% {
-        opacity: 0;
-        transform: translateX(-20vw);
-    }
-    100% {
-        opacity: 0.5;
-        transform: translateX(0vw);
+        transform: translateX(0);
     }
 }
 
@@ -1116,7 +1020,6 @@ figure.snip0015:hover figcaption p {
 .fade-exit.fade-exit-active {
     opacity: 0;
     transition: opacity 300ms linear;
-
 }
 
 ::-webkit-scrollbar {
@@ -1133,7 +1036,7 @@ figure.snip0015:hover figcaption p {
     -webkit-box-shadow: inset 0 0 6px rgba(62, 182, 241, 0.5);
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
 
     .App {
         width: 97%;
@@ -1204,31 +1107,21 @@ figure.snip0015:hover figcaption p {
         align-items: center;
         font-size: 12px;
     }
-
     .circle1 {
-        left: 55%;
-        top: 25%;
-    }
-    .circle3 {
-        left:8%;
-        top: 14%;
-    }
-
-
-    .circle4 {
-        position: absolute;
-        left: 30%;
-        top: 85%;
-    }
-    .circle5 {
-        left: 75%;
-        top: 70%;
+        opacity: .8;
+        width: 200px;
+        height: 200px;
+        left: 60%;
+        top: 40%;
+        transform: rotate(70deg);
     }
 
     .circle2 {
-        position: absolute;
-        left: 4%;
-        top: 65%;
+        width: 150px;
+        height: 150px;
+        opacity: .8;
+        left: 6%;
+        top: 17%;
     }
 
     .about-text {
@@ -1320,10 +1213,6 @@ figure.snip0015:hover figcaption p {
         padding: 0;
     }
 
-    .line {
-        display: none;
-    }
-
     .contact-icon {
         flex-direction: row;
         margin-top: 30px;
@@ -1369,8 +1258,20 @@ figure.snip0015:hover figcaption p {
         padding: 14px 5px;
     }
     .circle1 {
-        left: 55%;
-        top: 30%;
+        opacity: .8;
+        width: 200px;
+        height: 200px;
+        left: 60%;
+        top: 40%;
+        transform: rotate(70deg);
+    }
+
+    .circle2 {
+        width: 150px;
+        height: 150px;
+        opacity: .8;
+        left: 6%;
+        top: 17%;
     }
 }
 @media only screen and (min-width: 1600px) {
