@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-fetch-comunication" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exam-test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,7 +59,8 @@
       <workItem from="1621315080048" duration="20910000" />
       <workItem from="1621367006066" duration="540000" />
       <workItem from="1621413023479" duration="12323000" />
-      <workItem from="1621434143296" duration="4005000" />
+      <workItem from="1621434143296" duration="4565000" />
+      <workItem from="1621487147493" duration="147000" />
     </task>
     <servers />
   </component>
