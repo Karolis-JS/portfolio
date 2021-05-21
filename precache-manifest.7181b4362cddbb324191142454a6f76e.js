@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5b4dd37b9d2e67d14fcc",
+    "revision": "d7d6bef81bdc96fbd555",
     "url": "/portfolio/static/css/main.2dc8204a.chunk.css"
   },
   {
-    "revision": "5b4dd37b9d2e67d14fcc",
-    "url": "/portfolio/static/js/main.004c1a72.chunk.js"
+    "revision": "d7d6bef81bdc96fbd555",
+    "url": "/portfolio/static/js/main.0296e103.chunk.js"
   },
   {
     "revision": "16e3ed520ddd84c6d7b8",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/mongodb.ed0f4221.png"
   },
   {
-    "revision": "5bf0cf6185e05609b975d6733ebf9cb6",
-    "url": "/portfolio/static/media/CV_Karolis_Soblinskas_Full-stack.5bf0cf61.pdf"
+    "revision": "7e4101ace6429b4cda51f3e92287bc93",
+    "url": "/portfolio/static/media/CV_Karolis_Soblinskas_Full-stack.7e4101ac.pdf"
   },
   {
     "revision": "15df06f1c1991f0def9a7e49dbbb8f85",
@@ -64,19 +64,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/rombai-bg.22bb05ae.jpg"
   },
   {
-    "revision": "64a15ede0c108ad9f257bef8edaf1d3f",
-    "url": "/portfolio/static/media/circle-bg-1.64a15ede.png"
-  },
-  {
     "revision": "fc31025d084ead163a059817eb9e8f2b",
     "url": "/portfolio/static/media/circle-bg-2.fc31025d.jpg"
+  },
+  {
+    "revision": "64a15ede0c108ad9f257bef8edaf1d3f",
+    "url": "/portfolio/static/media/circle-bg-1.64a15ede.png"
   },
   {
     "revision": "91b8c5f1bf3b7798677d402a00dc467a",
     "url": "/portfolio/static/media/bg.91b8c5f1.gif"
   },
   {
-    "revision": "6fa75263105eff9d120bb9a4cc41f7f1",
+    "revision": "4b25a6919fe89549820090a5ddf62ff4",
     "url": "/portfolio/index.html"
   }
 ];
