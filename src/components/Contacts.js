@@ -51,8 +51,6 @@ function Contacts() {
 
                 </div>
             </div>
-
-
             </div>
     );
 }

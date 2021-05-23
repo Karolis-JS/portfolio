@@ -9,9 +9,6 @@ import mob from '../images/mob.png'
 import nuru from '../images/nuru_mobile.gif'
 import nuruimob from '../images/nurui_for_mobile.png'
 
-
-
-
 function Portfolio() {
 
     return (
@@ -129,7 +126,6 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }
