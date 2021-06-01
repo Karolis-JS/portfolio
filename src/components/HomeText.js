@@ -25,7 +25,7 @@ function HomeText() {
 
     return (
         <div className="home-text">
-            <p className="mb-10">Hi! Nice to meet,</p>
+            <p className="mb-10">Hi! Nice to meet you,</p>
             <h1 className="title-hover">I'm Karolis,</h1>
             <div className="d-flex mt-10 text-left mobile-size">
                 <p className="mr-10">Junior</p>
@@ -34,7 +34,7 @@ function HomeText() {
                     springConfig={ presets.wobbly }
                 />
             </div>
-            <Link className="here-me" to="/my-page/about">Here Me</Link>
+            <Link className="here-me" to="/my-page/about">About me</Link>
         </div>
     );
 }
